@@ -2,10 +2,8 @@ import express from 'express';
 
 const app = express();
 
-tretre t
-
 app.get('/', (req, res) => {
-    res.json({message: 'Hello World'});
+    res.json({message: 'Hello World my name is Alex'});
 });
 
 
